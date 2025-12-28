@@ -1,55 +1,66 @@
 body {
-  font-family: Georgia, "Times New Roman", serif;
-  background-color: #ffffff;
+  font-family: "Georgia", "Times New Roman", serif;
+  background: #ffffff;
   color: #111;
   max-width: 900px;
-  margin: auto;
-  padding: 2rem;
-  line-height: 1.6;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  line-height: 1.7;
 }
 
 header {
-  border-bottom: 2px solid #ddd;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
-h1, h2, h3 {
+h1 {
+  font-size: 2.5rem;
   font-weight: normal;
+  margin-bottom: 0.5rem;
 }
 
-nav {
+.subtitle {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-top: 2.5rem;
+}
+
+p {
   margin: 1rem 0;
 }
 
-nav a {
-  text-decoration: none;
-  color: #0055aa;
+.contents {
+  margin-top: 1.5rem;
+  padding-left: 1.5rem;
 }
 
-nav a:hover {
+.contents li {
+  margin: 0.6rem 0;
+}
+
+a {
+  color: #0055aa;
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: underline;
 }
 
-section {
-  margin-bottom: 2rem;
-}
-
-.example {
-  background: #f5f5f5;
-  padding: 1rem;
-  border-left: 4px solid #666;
-}
-
-.remark {
-  background: #eef6ff;
-  padding: 1rem;
-  border-left: 4px solid #0055aa;
+.note {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 2rem;
 }
 
 footer {
-  margin-top: 3rem;
+  margin-top: 4rem;
+  padding-top: 1.5rem;
   border-top: 1px solid #ddd;
-  padding-top: 1rem;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   color: #555;
 }
